@@ -30,13 +30,13 @@ var messageData = {
   "M-1": {
     "name": "",
     "text": "タップで次に進む",
-    "next": "M1",
+    "next": "M0",
     "back": "0"//玄関
   },
   "M0": {
     "name": "",
     "text": "（呼び鈴の音）",
-    "next": "M77",
+    "next": "M1",
     "back": "0"//玄関
   },
   "M1": {
