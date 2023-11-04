@@ -27,7 +27,7 @@ function close3() {
 function open3(num) {
   if(num == 42) num =44;
   if(num == 41) num =45;
-  else if(num == 41) num = 45; 
+  else if(num == 45) num = 41; 
   var x = document.getElementById("mystery");
   var y = document.getElementById("mysteryimg");
   document.getElementById("closeModal1").style.display = 'block';
