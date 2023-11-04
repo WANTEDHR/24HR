@@ -662,6 +662,8 @@ export async function nextmessage() {
   }
   if(nowmessage == "M80"){
     document.location.href = "./item"
+    itemfl[0] = true;
+    Set("ITEM",itemfl);
     return;
   }
   // document.getElementById("messagename");
